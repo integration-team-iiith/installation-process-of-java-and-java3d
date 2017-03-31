@@ -1,0 +1,119 @@
+#+Title:  Installation of Java3D on Windows
+#+Author: Sravanhti.M
+#+Date:   <2017-03-30 Thu>
+
+* Installation of Java3D on Windows7, 8 & 10
+  - The software you need to use Java 3D is available free from Oracle
+    at http://www.oracle.com/technetwork/java/index.html or http://java3d.java.net/binary-builds.html.
+  - Once you have installed Java and Java 3D you can compile programs
+    using the command:
+     javac FileName.java
+
+  - And run them using:
+     java FileName
+
+  - The FileName should always be the same as the name of the class
+    defined in that file. In some versions of Java 3D you may get a
+    message about a null graphics configuration, but you can just
+    ignore this.
+
+
+** Steps to install Java on Windows
+
+*** Updating the PATH Environment Variable (Optional) :
+    - You can run the JDK without setting the PATH environment
+      variable, or you can optionally set it so that you can
+      conveniently run the JDK executable files (javac.exe, java.exe,
+      javadoc.exe, and so forth) from any directory without having to
+      type the full path of the command. If you do not set the PATH
+      variable, you need to specify the full path to the executable
+      file every time you run it, such as:
+
+       " C:\> "C:\Program Files\Java\jdk1.7.0\bin\javac" MyClass.java"
+
+    - It is useful to set the PATH variable permanently so it will persist after rebooting.
+
+    - To set the PATH variable permanently, add the full path of the
+      jdk1.7.0\bin directory to the PATH variable. Typically, this
+      full path looks something like 
+       
+       " C:\ProgramFiles\Java\jdk1.7.0\bin.
+     
+    - Set the PATH variable as follows on
+      Microsoft Windows:
+
+     - Click Start, then Control Panel, then System.
+
+    - Click Advanced, then Environment Variables.
+
+    - Add the location of the bin folder of the JDK installation for the PATH variable in System Variables. The following is a typical value for the PATH variable:
+
+    C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.7.0\bin
+
+Note:
+
+    The PATH environment variable is a series of directories separated by semicolons (;) and is not case-sensitive. Microsoft Windows looks for programs in the PATH directories in order, from left to right.
+    You should only have one bin directory for a JDK in the path at a time. Those following the first instance are ignored.
+    If you are not sure where to add the path, add it to the right of the value of the PATH variable.
+    The new path takes effect in each new command window you open after setting the PATH variable.
+
+<img>
+
+** Steps to install Java3D on windows
+
+Java 3D is an addition to Java for displaying three-dimensional
+graphics. Programs written in Java 3D can be run on several different
+types of computer and over the internet.
+
+The Java 3D class library provides a simpler interface than most other
+graphics libraries, but has enough capabilities to produce good games
+and animation. Java 3D builds on existing technology such as DirectX
+and OpenGL so the programs do not run as slowly as you might
+expect.
+
+Navigate to
+http://www.oracle.com/technetwork/java/javase/downloads/index.html. You
+can download a simple Java Software Development Kit (JDK) installer
+for Windows, macOS, or Linux directly from Oracle.
+
+Below are the list of combinations tested to run java3d on windows:
+
+| S.No | Operating System | Java Version  | Java3D Version | Browser version | Screenshot |
+|------+------------------+---------------+----------------+-----------------+------------|
+|    1 | Windows7         | java 1.6.0.45 | java3d 1.5.1   | firefox 40.0    |            |
+|------+------------------+---------------+----------------+-----------------+------------|
+|      |                  | java 1.6.0.45 | java3d 1.5.2   | firefox 40.0    |            |
+|------+------------------+---------------+----------------+-----------------+------------|
+|      |                  | java 1.7.0.71 | java3d 1.5.1   | firefox 40.0    |            |
+|------+------------------+---------------+----------------+-----------------+------------|
+|      |                  | java 1.7.0.71 | java3d 1.5.2   | "               |            |
+|------+------------------+---------------+----------------+-----------------+------------|
+|      |                  | java 1.7.0.79 | java3d 1.5.1   |                 |            |
+|------+------------------+---------------+----------------+-----------------+------------|
+|      |                  | java 1.7.0.79 | java3d 1.5.2   |                 |            |
+|------+------------------+---------------+----------------+-----------------+------------|
+|    2 | Windows8         | java 1.6.0.45 | java3d 1.5.1   |                 |            |
+|------+------------------+---------------+----------------+-----------------+------------|
+|      |                  | java 1.6.0.45 | java3d 1.5.2   |                 |            |
+|------+------------------+---------------+----------------+-----------------+------------|
+|      |                  | java 1.7.0.71 | java3d 1.5.1   |                 |            |
+|------+------------------+---------------+----------------+-----------------+------------|
+|      |                  | java 1.7.0.71 | java3d 1.5.2   |                 |            |
+|------+------------------+---------------+----------------+-----------------+------------|
+|      |                  | java 1.7.0.79 | java3d 1.5.1   |                 |            |
+|------+------------------+---------------+----------------+-----------------+------------|
+|      |                  | java 1.7.0.79 | java3d 1.5.2   |                 |            |
+|------+------------------+---------------+----------------+-----------------+------------|
+|    3 | windows10        | java 1.6.0.45 | java3d 1.5.1   |                 |            |
+|------+------------------+---------------+----------------+-----------------+------------|
+|      |                  | java 1.6.0.45 | java3d 1.5.2   |                 |            |
+|------+------------------+---------------+----------------+-----------------+------------|
+|      |                  | java 1.7.0.71 | java3d 1.5.1   |                 |            |
+|------+------------------+---------------+----------------+-----------------+------------|
+|      |                  | java 1.7.0.71 | jav3d 1.5.2    |                 |            |
+|------+------------------+---------------+----------------+-----------------+------------|
+|      |                  | java 1.7.0.79 | java3d 1.5.1   |                 |            |
+|------+------------------+---------------+----------------+-----------------+------------|
+|      |                  | java 1.7.0.79 | java3d 1.5.2   |                 |            |
+|------+------------------+---------------+----------------+-----------------+------------|
+|      |                  |               |                |                 |            |
