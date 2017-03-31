@@ -80,8 +80,7 @@ Below are the list of combinations tested to run java3d on windows:
 
 | S.No | Operating System | Java Version  | Java3D Version | Browser version | Screenshot |
 |------+------------------+---------------+----------------+-----------------+------------|
-|    1 | Windows7         | java 1.6.0.45 | java3d 1.5.1   | firefox 40.0    |  [[./windows7/screen-1.png
-]]          |
+|    1 | Windows7         | java 1.6.0.45 | java3d 1.5.1   | firefox 40.0    |[[./windows7/screen-1.png]]|
 |------+------------------+---------------+----------------+-----------------+------------|
 |      |                  | java 1.6.0.45 | java3d 1.5.2   | firefox 40.0    |            |
 |------+------------------+---------------+----------------+-----------------+------------|
