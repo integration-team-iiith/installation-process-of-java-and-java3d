@@ -66,9 +66,9 @@
      LD_LIBRARY_PATH.
 
    - In Windows you set these with Start, Settings, Control Panel, System,
-   Advanced, Environment Variables. Then create or edit your CLASSPATH
-   and LD_LIBRARY_PATH so that they include the locations of the Java
-   3D files you downloaded. 
+     Advanced, Environment Variables. Then create or edit your CLASSPATH
+     and LD_LIBRARY_PATH so that they include the locations of the Java
+     3D files you downloaded. 
    - For example, if you saved the files to C:\java3d then you would
      add
      C:\java3d\lib\ext\j3dcore.jar;C:\java3d\lib\ext\j3dutils.jar;C:java3d\lib\ext\vecmath.jar
@@ -78,53 +78,59 @@
      see the Java 3D applet.
 
 ** Purpose to check with multiple combinations of java and java3d 
-   - As firefox is not supporting java, so checked with previous
-     version of firefox with multiple combinations of java and java3d.
-   - "jxpi" is the java browser plugin to run the java applets.
+   - As firefox is not supporting java, so checked with the previous
+     version of firefox with multiple combinations of java and java3d in multiple Operating sytems of windows.
+ 
 
+** "JXPI"
+    - "jxpi" is the java browser plugin to run the java applets.
    Below are the list of combinations tested to run java3d on windows with Firefox version 40.0:
 
-| S.No | Operating System | Java Version   | Java3D Version | Screenshot |   |
-|------+------------------+----------------+----------------+------------+---|
-|    1 | Windows7         | java 1.6.0.45  | java3d 1.5.1   | [[w7-j6u45-j3d1.5.1.png][Click Here]] |   |
-|------+------------------+----------------+----------------+------------+---|
-|      |                  | java 1.6.0.45  | java3d 1.5.2   | [[https://github.com/integration-team-iiith/installation-process-of-java-and-java3d/blob/master/screenshots/windows7/screen-1.png][Click here]] |   |
-|------+------------------+----------------+----------------+------------+---|
-|      |                  | java 1.7.0.71  | java3d 1.5.1   | [[installation-process-of-java-and-java3d/windows7/w7-j7u71-j3d1.5.1.png][click Here]] |   |
-|------+------------------+----------------+----------------+------------+---|
-|      |                  | java 1.7.0.71  | java3d 1.5.2   | [[installation-process-of-java-and-java3d/screenshots/windows7/w7-j6u45-j3d1.5.2.png][CLick Here]] |   |
-|------+------------------+----------------+----------------+------------+---|
-|      |                  | java 1.7.0.79  | java3d 1.5.1   | [[installation-process-of-java-and-java3d/screenshots/windows7/w7-j7u71-j3d1.5.1.png][Click Here]] |   |
-|------+------------------+----------------+----------------+------------+---|
-|      |                  | java 1.7.0.79  | java3d 1.5.2   | [[installation-process-of-java-and-java3d/screenshots/windows7/w7-j7u79-j3d1.5.2.png][Click Here]] |   |
-|------+------------------+----------------+----------------+------------+---|
-|    2 | Windows8         | java 1.6.0.45  | java3d 1.5.1   | [[installation-process-of-java-and-java3d/screenshots/windows8/w8-j6u45-j3d-1.5.1.png][Click Here]] |   |
-|------+------------------+----------------+----------------+------------+---|
-|      |                  | java 1.6.0.45  | java3d 1.5.2   | [[installation-process-of-java-and-java3d/screenshots/windows8/w8-j6u45-j3d-1.5.2.png][Click Here]] |   |
-|------+------------------+----------------+----------------+------------+---|
-|      |                  | java 1.7.0.71  | java3d 1.5.1   | [[installation-process-of-java-and-java3d/screenshots/windows8/w8-j7u71-j3d-1.5.1.png][Click Here]] |   |
-|------+------------------+----------------+----------------+------------+---|
-|      |                  | java 1.7.0.71  | java3d 1.5.2   | [[installation-process-of-java-and-java3d/screenshots/windows8/w8-j7u71-j3d-1.5.2.png][Click Here]] |   |
-|------+------------------+----------------+----------------+------------+---|
-|      |                  | java 1.7.0.79  | java3d 1.5.1   | [[ installation-process-of-java-and-java3d/screenshots/windows8/w8-j7u79-j3d-1.5.1.png][Click Here]] |   |
-|------+------------------+----------------+----------------+------------+---|
-|      |                  | java 1.7.0.79  | java3d 1.5.2   | [[installation-process-of-java-and-java3d/screenshots/windows8/w8-j7u79-j3d-1.5.2.png][Click Here]] |   |
-|------+------------------+----------------+----------------+------------+---|
-|      |                  | java 1.8.0.121 | java3d 1.5.1   | [[installation-process-of-java-and-java3d/screenshots/windows8/w8-j8u121-j3d-1.5.1.png][Click Here]] |   |
-|------+------------------+----------------+----------------+------------+---|
-|      |                  | java 1.8.0.121 | java3d 1.5.2   | [[installation-process-of-java-and-java3d/screenshots/windows8/w8-j8u121-j3d-1.5.2.png][Click Here]] |   |
-|------+------------------+----------------+----------------+------------+---|
-|    3 | windows10        | java 1.6.0.45  | java3d 1.5.1   | [[installation-process-of-java-and-java3d/screenshots/windows8/w10-j6u45-j3d-1.5.1.png][Click Here]] |   |
-|------+------------------+----------------+----------------+------------+---|
-|      |                  | java 1.6.0.45  | java3d 1.5.2   | [[installation-process-of-java-and-java3d/screenshots/windows10/w10-j6u45-j3d-1.5.2.png][Click Here]] |   |
-|------+------------------+----------------+----------------+------------+---|
-|      |                  | java 1.7.0.71  | java3d 1.5.1   | [[installation-process-of-java-and-java3d/screenshots/windows10/w10-j7u71-j3d-1.5.1.png][Click Here]] |   |
-|------+------------------+----------------+----------------+------------+---|
-|      |                  | java 1.7.0.71  | jav3d 1.5.2    | [[installation-process-of-java-and-java3d/screenshots/windows10/w10-j7u71-j3d-1.5.2.png][Click Here]] |   |
-|------+------------------+----------------+----------------+------------+---|
-|      |                  | java 1.7.0.79  | java3d 1.5.1   | [[installation-process-of-java-and-java3d/screenshots/windows10/w10-j7u79-j3d-1.5.1.png][Click Here]] |   |
-|------+------------------+----------------+----------------+------------+---|
-|      |                  | java 1.7.0.79  | java3d 1.5.2   | [[installation-process-of-java-and-java3d/screenshots/windows10/w10-j7u79-j3d-1.5.2.png][Click Here]] |   |
-|------+------------------+----------------+----------------+------------+---|
-|      |                  |                |                |            |   |
+| S.No | Operating System | Java Version   | Java3D Version | Screenshot |
+|------+------------------+----------------+----------------+------------|
+|    1 | Windows7         | java 1.6.0.45  | java3d 1.5.1   | [[https://github.com/integration-team-iiith/installation-process-of-java-and-java3d/blob/master/screenshots/windows7/w7-j6u45-j3d1.5.1.png][Click Here]] |
+|------+------------------+----------------+----------------+------------|
+|      |                  | java 1.6.0.45  | java3d 1.5.2   | [[https://github.com/integration-team-iiith/installation-process-of-java-and-java3d/blob/master/screenshots/windows7/w7-j6u45-j3d1.5.2.png][Click Here]] |
+|------+------------------+----------------+----------------+------------|
+|      |                  | java 1.7.0.71  | java3d 1.5.1   | [[https://github.com/integration-team-iiith/installation-process-of-java-and-java3d/blob/master/screenshots/windows7/w7-j7u71-j3d1.5.1.png][click Here]] |
+|------+------------------+----------------+----------------+------------|
+|      |                  | java 1.7.0.71  | java3d 1.5.2   | [[https://github.com/integration-team-iiith/installation-process-of-java-and-java3d/blob/master/screenshots/windows7/w7-j7u71-j3d1.5.2.png][CLick Here]] |
+|------+------------------+----------------+----------------+------------|
+|      |                  | java 1.7.0.79  | java3d 1.5.1   | [[https://github.com/integration-team-iiith/installation-process-of-java-and-java3d/blob/master/screenshots/windows7/w7-j7u79-j3d1.5.1.png][Click Here]] |
+|------+------------------+----------------+----------------+------------|
+|      |                  | java 1.7.0.79  | java3d 1.5.2   | [[https://github.com/integration-team-iiith/installation-process-of-java-and-java3d/blob/master/screenshots/windows7/w7-j7u79-j3d1.5.2.png][Click Here]] |
+|------+------------------+----------------+----------------+------------|
+|      |                  | java 1.8.0.121 | java3d 1.5.1   | [[https://github.com/integration-team-iiith/installation-process-of-java-and-java3d/blob/master/screenshots/windows7/w7-j8u121-j3d1.5.1.png][Click Here]] |
+|------+------------------+----------------+----------------+------------|
+|      |                  | java 1.8.0.121 | java3d 1.5.2   | [[https://github.com/integration-team-iiith/installation-process-of-java-and-java3d/blob/master/screenshots/windows7/w7-j8u121-j3d1.5.2.png][Click Here]] |
+|------+------------------+----------------+----------------+------------|
+|    2 | Windows8         | java 1.6.0.45  | java3d 1.5.1   | [[https://github.com/integration-team-iiith/installation-process-of-java-and-java3d/blob/master/screenshots/windows8/w8-j6u45-j3d-1.5.1.png][Click Here]] |
+|------+------------------+----------------+----------------+------------|
+|      |                  | java 1.6.0.45  | java3d 1.5.2   | [[https://github.com/integration-team-iiith/installation-process-of-java-and-java3d/blob/master/screenshots/windows8/w8-j6u45-j3d-1.5.2.png][Click Here]] |
+|------+------------------+----------------+----------------+------------|
+|      |                  | java 1.7.0.71  | java3d 1.5.1   | [[https://github.com/integration-team-iiith/installation-process-of-java-and-java3d/blob/master/screenshots/windows8/w8-j7u71-j3d1.5.1.png][Click Here]] |
+|------+------------------+----------------+----------------+------------|
+|      |                  | java 1.7.0.71  | java3d 1.5.2   | [[https://github.com/integration-team-iiith/installation-process-of-java-and-java3d/blob/master/screenshots/windows8/w8-j7u71-j3d1.5.2.png][Click Here]] |
+|------+------------------+----------------+----------------+------------|
+|      |                  | java 1.7.0.79  | java3d 1.5.1   | [[https://github.com/integration-team-iiith/installation-process-of-java-and-java3d/blob/master/screenshots/windows8/w8-j7u79-j3d1.5.1.png][Click Here]] |
+|------+------------------+----------------+----------------+------------|
+|      |                  | java 1.7.0.79  | java3d 1.5.2   | [[https://github.com/integration-team-iiith/installation-process-of-java-and-java3d/blob/master/screenshots/windows8/w8-j7u79-j3d1.5.2.png][Click Here]] |
+|------+------------------+----------------+----------------+------------|
+|      |                  | java 1.8.0.121 | java3d 1.5.1   | [[https://github.com/integration-team-iiith/installation-process-of-java-and-java3d/blob/master/screenshots/windows8/w8-j8u121-j3d1.5.1.png][Click Here]] |
+|------+------------------+----------------+----------------+------------|
+|      |                  | java 1.8.0.121 | java3d 1.5.2   | [[https://github.com/integration-team-iiith/installation-process-of-java-and-java3d/blob/master/screenshots/windows8/w8-j8u121-j3d1.5.2.png][Click Here]] |
+|------+------------------+----------------+----------------+------------|
+|    3 | windows10        | java 1.6.0.45  | java3d 1.5.1   | [[https://github.com/integration-team-iiith/installation-process-of-java-and-java3d/blob/master/screenshots/windows10/w10-j6u45-j3d1.5.1.png][Click Here]] |
+|------+------------------+----------------+----------------+------------|
+|      |                  | java 1.6.0.45  | java3d 1.5.2   | [[https://github.com/integration-team-iiith/installation-process-of-java-and-java3d/blob/master/screenshots/windows10/w10-j6u45-j3d1.5.2.png][Click Here]] |
+|------+------------------+----------------+----------------+------------|
+|      |                  | java 1.7.0.71  | java3d 1.5.1   | [[https://github.com/integration-team-iiith/installation-process-of-java-and-java3d/blob/master/screenshots/windows10/w10-j7u71-j3d1.5.1.png][Click Here]] |
+|------+------------------+----------------+----------------+------------|
+|      |                  | java 1.7.0.71  | jav3d 1.5.2    | [[https://github.com/integration-team-iiith/installation-process-of-java-and-java3d/blob/master/screenshots/windows10/w10-j7u71-j3d1.5.2.png][Click Here]] |
+|------+------------------+----------------+----------------+------------|
+|      |                  | java 1.8.0.121 | java3d 1.5.1   | [[https://github.com/integration-team-iiith/installation-process-of-java-and-java3d/blob/master/screenshots/windows10/w10-j8u121-j3d1.5.1.png][Click Here]] |
+|------+------------------+----------------+----------------+------------|
+|      |                  | java 1.8.0.121 | java3d 1.5.2   | [[https://github.com/integration-team-iiith/installation-process-of-java-and-java3d/blob/master/screenshots/windows10/w10-j8u121-j3d1.5.2.png][Click Here]] |
+|------+------------------+----------------+----------------+------------|
+   
 
